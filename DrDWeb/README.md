@@ -1,12 +1,4 @@
-# Dračí doupě — Virtuální stůl
-
-Webová appka bez serveru, bez databáze, bez účtu. PJ otevře appku, dostane
-6místný kód, hráči otevřou tu samou appku a kódem se připojí **přímo k jeho
-prohlížeči** (technologie WebRTC — stejný princip, na jakém běží třeba
-sdílení obrazovky v Google Meet). Nikdo nic neinstaluje, appka se jen otevře
-v prohlížeči.
-
-## Jak appka funguje
+Jak aplikace funguje
 
 - **PJ = hostitel.** Jeho prohlížeč drží aktuální stav světa (mapu, postavy,
   kroniku) po celou dobu hraní.
@@ -37,20 +29,6 @@ v prohlížeči.
 
 Appka je jen sada statických souborů (HTML/CSS/JS) — žádný build krok.
 
-**Nejjednodušší pro sdílení s partou:** nahraj celou složku na libovolný
-zdarma static hosting a pošli všem odkaz — nikdo nic nestahuje, jen otevře
-stránku:
-
-- **[app.netlify.com/drop](https://app.netlify.com/drop)** — přetáhni tam
-  složku myší, za pár vteřin dostaneš veřejnou adresu. Bez účtu.
-- **GitHub Pages** — nahraj složku do repozitáře → *Settings ▸ Pages*.
-- **Firebase Hosting** — `npm install -g firebase-tools && firebase login && firebase init hosting && firebase deploy`
-  (jen hosting statických souborů, žádná databáze se tu nezakládá).
-
-**Nebo úplně bez hostingu:** appka jde otevřít i přímo dvojklikem na
-`index.html` z disku — funguje to v Chrome/Edge. Každý hráč (včetně PJ) by
-ale musel mít appku staženou zvlášť u sebe, takže pro partu je jednodušší
-appku nahrát jednou (viz výše) a poslat odkaz.
 
 ## Instalace jako appka (PWA)
 
