@@ -1,0 +1,19 @@
+{
+  "name": "Dračí doupě — Virtuální stůl",
+  "short_name": "Dračí doupě",
+  "description": "Virtuální stůl pro Dračí doupě — společná mapa, postavy, kostky a kronika online.",
+  "id": "/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait-primary",
+  "background_color": "#EDE0C2",
+  "theme_color": "#8F211C",
+  "lang": "cs",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
